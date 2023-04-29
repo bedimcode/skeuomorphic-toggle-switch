@@ -1,0 +1,17 @@
+/*=============== VARIABLES CSS ===============*/
+:root{
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --on-color: hsl(188, 90%, 90%);
+   --off-color: hsl(188, 60%, 30%);
+   --bg-off-color: linear-gradient(180deg,
+                 hsl(203, 100%, 16%) 0%,
+                 hsl(203, 65%, 36%) 100%);
+   --bg-on-color: radial-gradient(30% 65% at 30% 50%,
+                hsl(188, 100%, 50%) 0%,
+                hsla(188, 100%, 45%, 0%) 100%);
+   --body-color: linear-gradient(180deg,
+               hsl(188, 68%, 72%) 0%,
+               hsl(192, 60%, 56%) 100%);
+   --white-color: #fff;
+}
